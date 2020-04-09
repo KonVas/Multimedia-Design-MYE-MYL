@@ -15,7 +15,7 @@ Now, providing we have these information at hand, let's create map some values f
 Open a new file on a newly created Processing sketch. In the file, import the OSC library which we will use for the OSC communication.
 
 Add this: 
-``js 
+``java 
 import netP5.*; //this is a dependancy of OSC.
 import oscP5.*;
 ```
