@@ -4,7 +4,7 @@ A standard scenario is to connect two applications, which create audio <> visual
 Below we will create a reciprocal interaction between these two. To establish this, first we need to know in which address and port
 the two apps are listening too. 
 
-### For the full working code of this project see keyPiano folder at this ![link](./keyPianoOSC).
+### For the full working code of this project see keyPiano folder at this ![link](https://github.com/KonVas/Multimedia-Design-MYE-MYL/tree/master/Multimedia_Week_06-07_Processing_Sketches/Backbone%20Scripts/keyPianoOSC).
 
 Assuming we are working in our computers, the address of the remote application is the local host, or `127.0.0.1`.
 In case we wanted to send to another computer we would need to know its IP address. 
