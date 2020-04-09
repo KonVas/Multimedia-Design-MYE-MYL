@@ -104,7 +104,7 @@ OSCdef(\playNotes, {|msg|
   This above, is listening for the same exact string path of the sender: `'/key/value` (check in Processing to make sure). If these don't match then there won't be any connection.
   Inside our OSC function we are parsing the incoming messages since they arrive as an array format, that is `[msg1, msg2]` and assigning them to variables respectively. Next is the synth that we are mapping the messages.
 
-References
+## Links
 
 <http://www.sojamo.de/libraries/oscP5/>
 
