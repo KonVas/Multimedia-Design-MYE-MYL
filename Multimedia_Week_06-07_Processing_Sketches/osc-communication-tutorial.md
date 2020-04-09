@@ -103,4 +103,8 @@ OSCdef(\playNotes, {|msg|
   ```
   This above, is listening for the same exact string path of the sender: `'/key/value` (check in Processing to make sure). If these don't match then there won't be any connection.
   Inside our OSC function we are parsing the incoming messages since they arrive as an array format, that is `[msg1, msg2]` and assigning them to variables respectively. Next is the synth that we are mapping the messages.
-{^1] For Non ascii keys, such as SHIFT, BACKSPACE etc. Check here:https://processing.org/reference/keyCode.html
+
+References
+<http://www.sojamo.de/libraries/oscP5/>
+<https://www.google.com/search?client=firefox-b-d&q=OSC+communication>
+[^1] For Non ascii keys, such as SHIFT, BACKSPACE etc. Check here: <https://processing.org/reference/keyCode.html>
