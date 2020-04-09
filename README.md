@@ -1,4 +1,4 @@
-# Multimedia Design Material
+# Multimedia Design
 ## Processing
 ## Arduino
 ## SuperCollider
