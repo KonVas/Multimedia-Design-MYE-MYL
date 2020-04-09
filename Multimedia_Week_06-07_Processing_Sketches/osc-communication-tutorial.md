@@ -105,6 +105,9 @@ OSCdef(\playNotes, {|msg|
   Inside our OSC function we are parsing the incoming messages since they arrive as an array format, that is `[msg1, msg2]` and assigning them to variables respectively. Next is the synth that we are mapping the messages.
 
 References
+
 <http://www.sojamo.de/libraries/oscP5/>
+
 <https://www.google.com/search?client=firefox-b-d&q=OSC+communication>
+
 [^1] For Non ascii keys, such as SHIFT, BACKSPACE etc. Check here: <https://processing.org/reference/keyCode.html>
